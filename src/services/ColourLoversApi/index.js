@@ -7,7 +7,7 @@ const baseURL = 'http://www.colourlovers.com/api'
 /**
  * @type {Object} getNewestPalettesResponse
  * @param {Array}
- * @param {error}
+ * @param {Error}
  *
  * @returns {getNewestPalettesResponse}
  */
