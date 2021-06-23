@@ -1,5 +1,5 @@
-import './styles.css';
 import PropTypes from 'prop-types';
+import './styles.css';
 
 const PaletteCard = (props) => {
     const date = new Date(props.timestamp)
