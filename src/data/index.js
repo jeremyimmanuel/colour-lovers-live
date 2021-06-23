@@ -226,7 +226,7 @@ export const data = [
     },
     {
         "id": 4815426,
-        "title": "\\u8bf6\\u6bd4\\u8fea\\u8bf6\\u8bf6\\u827e",
+        "title": "aasdasd",
         "userName": "Bubbletripper",
         "numViews": 25,
         "numVotes": 0,
@@ -338,7 +338,7 @@ export const data = [
     },
     {
         "id": 4815421,
-        "title": "\\u0627 \\u0628\\u0627\\u0627\\u0643",
+        "title": "Why though",
         "userName": "Bubbletripper",
         "numViews": 15,
         "numVotes": 0,
@@ -361,7 +361,7 @@ export const data = [
     },
     {
         "id": 4815420,
-        "title": "\\uff91\\u4e43\\u00d0\\uff91\\uff91\\u5200",
+        "title": "Another one",
         "userName": "Bubbletripper",
         "numViews": 23,
         "numVotes": 0,
@@ -384,7 +384,7 @@ export const data = [
     },
     {
         "id": 4815419,
-        "title": "\\ufeea\\u044a\\u056a\\ufeea\\ufeea\\u057c",
+        "title": "Why",
         "userName": "Bubbletripper",
         "numViews": 7,
         "numVotes": 0,

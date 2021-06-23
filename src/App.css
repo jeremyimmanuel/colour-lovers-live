@@ -1,15 +1,12 @@
 .App-header {
-  background-color: #282c34;
-  font-size: calc(10px + 2vmin);
+  background-color: #329ee3;
   color: white;
 }
 
-.App-body {
-  background-color: #282c34;
-}
 
-.App-link {
-  color: #61dafb;
+.App-body {
+  background-color: #329ee3;
+  width: 100%;
 }
 
 
@@ -17,29 +14,25 @@
   display: flex;
   flex-direction: column;
   grid-template-columns: none;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .data-grid .palette-card {
   margin-bottom: 1rem;
 }
 
-@media screen and (min-width: 750px) {
+@media screen and (min-width: 768px) {
   .data-grid {
+    width: 75%;
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 1rem;
+    gap: 1rem 4rem;
+    padding-left: 8px;
+    padding-right: 8px;
   }
 
   .data-grid .palette-card {
     margin-bottom: 0;
-  }
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
   }
 }
