@@ -269,7 +269,7 @@ export const data = [
     },
     {
         "id": 4815424,
-        "title": "BlackCoffee2 GreenTea",
+        "title": "BlackCoffee2GreenTea",
         "userName": "johnnycakes",
         "numViews": 17,
         "numVotes": 1,
@@ -407,7 +407,7 @@ export const data = [
     },
     {
         "id": 4815418,
-        "title": "@wallabyway",
+        "title": "ﻪъժﻪﻪռ",
         "userName": "Bubbletripper",
         "numViews": 13,
         "numVotes": 0,
