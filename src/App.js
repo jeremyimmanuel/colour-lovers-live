@@ -4,9 +4,9 @@ import MyHeader from './components/MyHeader';
 import { data } from './data';
 
 function App() {
-  let dataList = data.map(({ id, title, userName, dateCreated, imageUrl, numViews, numVotes }) => {
+  let dataList = data.map(({ id, title, userName, dateCreated, imageUrl, numViews, numVotes, url }) => {
     return (
-      <PaletteCard key={id} title={title} author={userName} timestamp={dateCreated} imageUrl={imageUrl} numViews={numViews} numVotes={numVotes} />
+      <PaletteCard key={id} title={title} author={userName} timestamp={dateCreated} imageUrl={imageUrl} numViews={numViews} numVotes={numVotes} url={url} />
     )
   })
 
