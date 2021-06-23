@@ -4,6 +4,13 @@ import path from 'path';
 
 const baseURL = 'http://www.colourlovers.com/api'
 
+/**
+ * @type {Object} getNewestPalettesResponse
+ * @param {Array}
+ * @param {error}
+ *
+ * @returns {getNewestPalettesResponse}
+ */
 export const getNewestPalettes = async function () {
     const params = { format: 'json' }
     const url = path.join(baseURL, 'palettes', 'new')

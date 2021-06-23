@@ -1,4 +1,5 @@
 import './styles.css';
+import PropTypes from 'prop-types';
 
 const PaletteCard = (props) => {
     const date = new Date(props.timestamp)
@@ -16,6 +17,20 @@ const PaletteCard = (props) => {
             </a>
         </div>
     )
+}
+
+PaletteCard.propTypes = {
+    title: PropTypes.string.isRequired,
+
+    author: PropTypes.string.isRequired,
+
+    /** Timestamp when palette was created */
+    timestamp: PropTypes.string.isRequired,
+
+    /** Url to palette's page */
+    url: PropTypes.string.isRequired,
+
+    imageUrl: PropTypes.string.isRequired
 }
 
 export default PaletteCard
