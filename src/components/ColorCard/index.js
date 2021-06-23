@@ -15,7 +15,7 @@ const ColorCard = (props) => {
                 <caption className="text-sm">by {props.author} at {timestampSimplified}</caption>
                 <div className="bg-black bg-opacity-50 text-white text-sm p-2 rounded-sm mt-4">{props.numViews} views {props.numVotes} vote</div>
             </div>
-            <img className="rounded-md" src={props.imageUrl} alt="palette"></img>
+            <img className="rounded-md h-36 w-48" src={props.imageUrl} alt="palette"></img>
         </div>
     )
 }

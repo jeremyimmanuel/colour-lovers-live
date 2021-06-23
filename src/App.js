@@ -5,7 +5,7 @@ import { data } from './data';
 function App() {
   let dataList = data.slice(0, 10).map(({ title, userName, dateCreated, imageUrl, numViews, numVotes }) => {
     return (
-      <ColorCard title={title} author={userName} timestamp={dateCreated} imageUrl={imageUrl} numViews={numViews} numVotes={numVotes} />
+      <ColorCard className="palette-card" title={title} author={userName} timestamp={dateCreated} imageUrl={imageUrl} numViews={numViews} numVotes={numVotes} />
     )
   })
 
@@ -19,7 +19,7 @@ function App() {
       </header>
 
       <div className="App-body flex justify-center">
-        <div className="grid grid-cols-2 gap-4 w-3/4">
+        <div className="data-grid">
           {dataList}
         </div>
       </div>
