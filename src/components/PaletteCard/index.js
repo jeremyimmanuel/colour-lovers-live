@@ -1,4 +1,4 @@
-import './paletteCard.css';
+import './styles.css';
 
 const PaletteCard = (props) => {
     const date = new Date(props.timestamp)

@@ -1,0 +1,18 @@
+.my-header {
+    background-color: #329ee3;
+    color: white;
+}
+
+.my-header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+@media (min-width: 768px) {
+    .my-header-container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
