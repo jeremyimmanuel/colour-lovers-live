@@ -1,6 +1,6 @@
 import './styles.css';
 
-function Header() {
+function MyHeader() {
     let now = new Date(Date.now())
     let now_string = now.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
 
@@ -17,4 +17,4 @@ function Header() {
     )
 }
 
-export default Header
+export default MyHeader

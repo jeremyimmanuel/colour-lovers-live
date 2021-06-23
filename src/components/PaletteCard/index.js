@@ -1,6 +1,11 @@
 import PropTypes from 'prop-types';
 import './styles.css';
 
+/**
+ * Component that holds information regarding a specific palette
+ *
+ * @component
+ */
 const PaletteCard = (props) => {
     const date = new Date(props.timestamp)
     const timestamp = date.toLocaleTimeString('en-US', { hour: 'numeric', minute: '2-digit' })
