@@ -1,5 +1,32 @@
+.palette-card {
+    padding: 2rem;
+    border-radius: 8px;
+    background: #329ee3;
+    box-shadow:  inset 5px 5px 10px #2a85bf,
+                inset -5px -5px 10px #3ab7ff;
+}
+
 .palette-card-img {
     width: 33%;
     max-width: 300px;
-    max-height: 200px;
+    height: 100px;
+}
+
+@media (min-width: 768px) {
+    .palette-card-img {
+        width: 33%;
+        max-width: 300px;
+        height: 100%;
+    }
+  }
+
+.palette-card-info {
+    width: 75%;
+}
+
+.palette-card-info h2 {
+    width: 75%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
