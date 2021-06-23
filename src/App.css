@@ -19,11 +19,19 @@
   grid-template-columns: none;
 }
 
+.data-grid .palette-card {
+  margin-bottom: 1rem;
+}
+
 @media screen and (min-width: 750px) {
   .data-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
     gap: 1rem;
+  }
+
+  .data-grid .palette-card {
+    margin-bottom: 0;
   }
 }
 

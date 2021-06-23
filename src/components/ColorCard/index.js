@@ -9,7 +9,7 @@ const ColorCard = (props) => {
     }, [timestamp])
 
     return (
-        <div className="flex flex-row justify-between text-white">
+        <div className="palette-card flex flex-row justify-between text-white">
             <div className="flex flex-col items-start">
                 <h2 className="text-xl">{props.title}</h2>
                 <caption className="text-sm">by {props.author} at {timestampSimplified}</caption>
