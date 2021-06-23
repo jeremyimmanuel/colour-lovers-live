@@ -1,11 +1,11 @@
 import './App.css';
-import ColorCard from './components/ColorCard';
+import PaletteCard from './components/PaletteCard';
 import { data } from './data';
 
 function App() {
-  let dataList = data.slice(0, 10).map(({ title, userName, dateCreated, imageUrl, numViews, numVotes }) => {
+  let dataList = data.map(({ id, title, userName, dateCreated, imageUrl, numViews, numVotes }) => {
     return (
-      <ColorCard title={title} author={userName} timestamp={dateCreated} imageUrl={imageUrl} numViews={numViews} numVotes={numVotes} />
+      <PaletteCard key={id} title={title} author={userName} timestamp={dateCreated} imageUrl={imageUrl} numViews={numViews} numVotes={numVotes} />
     )
   })
 
