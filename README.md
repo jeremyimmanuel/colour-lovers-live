@@ -6,6 +6,7 @@ This project is a part of [TenantBase](https://cors-anywhere.herokuapp.com/)'s i
 
 ![image](https://user-images.githubusercontent.com/35509768/123183067-94d8cc00-d445-11eb-9e8c-5d9b9c0fd34e.png)
 
+I chose not to implemented tests for now since the purpose of this project is to just showcase my skills with react and also I went in to this project with not a lot of react experience (go Vue!). In real life, I'd also implement tests for the project.
 
 ## Dependencies
 
