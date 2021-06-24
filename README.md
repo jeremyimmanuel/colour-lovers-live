@@ -2,6 +2,11 @@
 
 This project is a part of [TenantBase](https://cors-anywhere.herokuapp.com/)'s interview process.
 
+![image](https://user-images.githubusercontent.com/35509768/123183044-8985a080-d445-11eb-87aa-508f70113522.png)
+
+![image](https://user-images.githubusercontent.com/35509768/123183067-94d8cc00-d445-11eb-9e8c-5d9b9c0fd34e.png)
+
+
 ## Dependencies
 
 ### Tailwind
