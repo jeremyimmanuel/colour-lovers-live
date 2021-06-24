@@ -26,6 +26,11 @@ I went with a neumorphic design because I just wanted to try it out.
 
 I tried calling the API but I couldn't get the expected response. After I fixed the CORS issue, I keep getting a 403 response saying that I need to verify my identity with a captcha (which I couldn't since the captcha page was a static page in the response).
 
+Following is the response that I get:
+![image](https://user-images.githubusercontent.com/35509768/123182993-6ce96880-d445-11eb-9a50-9385c51e39f0.png)
+
+I personally have never seen this before, so if anyone knows the solution, please let me know, thanks! :)
+
 ## Available Scripts
 
 In the project directory, you can run:
