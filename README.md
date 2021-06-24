@@ -36,6 +36,8 @@ Following is the response that I get:
 
 I personally have never seen this before, so if anyone knows the solution, please let me know, thanks! :)
 
+I still implemented a function that calls the api though, just to showcase how I'd implemented and api request.
+
 ## Available Scripts
 
 In the project directory, you can run:
