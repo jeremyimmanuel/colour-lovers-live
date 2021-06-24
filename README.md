@@ -1,6 +1,30 @@
-# Getting Started with Create React App
+# Colour Lovers Live
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is a part of [TenantBase](https://cors-anywhere.herokuapp.com/)'s interview process.
+
+## Dependencies
+
+### Tailwind
+
+Why tailwind? I personally like using low-utility css libraries as it speeds up development by letting me configure the css without leaving the main js file. For more complex css rules, I'd still use a traditional css approach.
+
+### Axios
+
+Http library to call api.
+
+## Differences
+
+This project has some minor difference compared to the [mockup](https://github.com/TenantBase/hiring-frontend-challenge/tree/master/mockups).
+
+### Grid items have separation
+
+I noticed this while developing that when the display is a grid, the proximity among cards may mislead of incorrect info to palette matching. So a solution would be making the card have more significant borders.
+
+I went with a neumorphic design because I just wanted to try it out.
+
+### API failed
+
+I tried calling the API but I couldn't get the expected response. After I fixed the CORS issue, I keep getting a 403 response saying that I need to verify my identity with a captcha (which I couldn't since the captcha page was a static page in the response).
 
 ## Available Scripts
 
