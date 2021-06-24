@@ -14,6 +14,10 @@ I chose not to implemented tests for now since the purpose of this project is to
 
 Why tailwind? I personally like using low-utility css libraries as it speeds up development by letting me configure the css without leaving the main js file. For more complex css rules, I'd still use a traditional css approach.
 
+### Craco
+
+Dependecies for attaching tailwind.
+
 ### Axios
 
 Http library to call api.
